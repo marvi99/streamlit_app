@@ -31,7 +31,7 @@ with col2:
 st.sidebar.caption('Wish to connect?')
 st.sidebar.write('📧: xyz@gmail.com')
 #rb means converting pdf file to raw binary format
-pdf_file = open('resume.pdf', 'rb')
+pdf_file = open('Resume.pdf', 'rb')
 st.sidebar.download_button('Download Resume',pdf_file,file_name='Resume.pdf',mime='pdf')
 
 tab_skills,tab_exp,tab_pro,tab_cont,tab_pic = st.tabs(['Skills','Experience','Projects','Contact Me',"Take a picture"])
